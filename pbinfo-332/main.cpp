@@ -1,13 +1,10 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-
-int calcul(int n) {
-    if (n == 0) return 0;
-    else return calcul(n - 1) + n * (n + 1);
-}
-
 int main() {
-    int n; cin >> n;
-    cout << "Rezultatul este" << " " << calcul(n);
+    int n, S = 0;
+    cin >> n;
+    for (int i = 1; i <= n; ++i)
+        S = S + i * (i + 1);
+    cout << "Rezultatul este " << S;
     return 0;
 }
