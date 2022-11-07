@@ -1,20 +1,18 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-ifstream in("pozmax.in");
-ofstream out("pozmax.out");
-#define cin in
-#define cout out
 int main() {
-    int n, pozmin = 1, pozmax = 1;
-    double maxim, temp;
-    cin >> n >> maxim;
-    for (int i = 2; i <= n; i++) {
-        cin >> temp;
-        if (temp > maxim) {
-            pozmin = pozmax = i;
-            maxim = temp;
-        } else if (temp == maxim)
-            pozmax = i;
-    } cout << pozmin << " " << pozmax;
+    int n, v[100000], var, minim1 = 0, minim2 = 1000000000;
+    cin >> n;
+    for (int i = 1; i <= n; i++)
+        cin >> v[i];
+    for (int i = 1; i < n; i++) {
+        if (abs(v[i] - v[i + 1]) < abs(minim1 - minim2)) {
+            minim1 = v[i];
+            minim2 = v[i + 1];
+        } else if (abs(v[i] - v[i + 1]) == abs(minim1 - minim2) && minim1 + minim2 > v[i] + v[i + 1]) {
+            minim1 = v[i];
+            minim2 = v[i + 1];
+        }
+    } cout << minim1 << " " << minim2;
     return 0;
 }
