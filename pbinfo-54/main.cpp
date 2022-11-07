@@ -1,13 +1,17 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 int main() {
-    int temp = -1, n = 0;
-    while (temp) {
-        cin >> temp;
-        if (temp > n)
-            n = temp;
+    int n, maxim;
+    bool adv = false;
+    cin >> n;
+    maxim = n;
+    while (n) {
+        if (n > maxim)
+            maxim = n;
+		adv = true;
+        cin >> n;
     }
-    if (n == 0) cout << "NU EXISTA";
-    else cout << n;
+    if (adv == true) cout << maxim;
+    else cout << "NU EXISTA";
     return 0;
 }
