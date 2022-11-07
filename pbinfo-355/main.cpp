@@ -1,13 +1,13 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 int main() {
-    int n, temp; cin >> n;
- 	int* v = new int[n];
- 	for (int i = 0; i < n; i++) {
-  		cin >> temp;
-  		v[i] = temp;
- 	} 
-    sort(v, v + n);
- 	cout << v[0];
- 	return 0;
+    int a, n, minim = 9999999999;
+    cin >> n;
+    for (int i = 1; i <= n; i++) {
+        cin >> a;
+        if (a < minim) {
+            minim = a;
+        }
+    } cout << minim;
+    return 0;
 }
