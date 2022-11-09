@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     int n, pare = 0, impare = 0;
     cin >> n;
-    for (int i = n; n >= 1; --n) {
+    for (; n >= 1; --n) {
         int temp; cin >> temp;
         if (temp == 0) pare++;
         else while (temp != 0) {
