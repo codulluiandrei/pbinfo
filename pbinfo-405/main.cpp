@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-bool testprim(int n) {
+bool prim(int n) {
     if (n < 2) return false;
     if (n == 2) return true;
     if (n % 2 == 0) return false;
@@ -8,22 +8,21 @@ bool testprim(int n) {
         if (n % i == 0) return false;
     return true;
 }
-int nrcifre(int n) {
-    int s = 0;
-    while(n) {
-        s += n % 10;
-        n /= 10;
-    } return s;
+int sumcif(int n) {
+    int S = 0;
+    while (n != 0) {
+       	S = S + n % 10;
+        n = n / 10;
+    } return S;
 }
 int main() {
-    int n, s = 0;
-    long int nr;
+    long long int n, S = 0, nr;
     cin >> n;
-    while(n) {
+    while (n != 0) {
         cin >> nr;
-        if(testprim(nr)) {
-            s += nrcifre(nr);
+        if (prim(nr)) {
+            S = S + sumcif(nr);
         } n--;
-    } cout << s;
+    } cout << S;
     return 0;
 }
