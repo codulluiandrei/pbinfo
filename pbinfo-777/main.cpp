@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int n, m, mat[101][101], rezultat = 0;
+int n, m, mat[101][101], rez2 = 0;
 int main() {
     cin >> n >> m;
     for (int i = 1; i <= n; i++)
@@ -12,7 +12,7 @@ int main() {
             for (int l = i + 1; l <= n; l++)
                 if (mat[i][j] == mat[l][j])
                     adv = false;
-        if (adv == true) rezultat++;
-    } cout << rezultat;
+        if (adv == true) rez2++;
+    } cout << rez2;
     return 0;
 }
