@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int palindrom(char *editat) {
     char text[21];
     strcpy(text, editat);
@@ -12,7 +11,6 @@ int palindrom(char *editat) {
             return 0;
     return 1;
 }
-
 int main() {
     char text[256];
     cin.getline(text, 256);

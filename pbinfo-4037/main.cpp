@@ -1,9 +1,6 @@
 #include<bits/stdc++.h>
-
 using namespace std;
-
 long long int n,v[2001], x , k , b , a , nr = 0 , c , cnt = 0;
-
 int main()
 {
     cin>>n;

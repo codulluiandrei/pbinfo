@@ -1,13 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("aur.in");
 ofstream out("aur.out");
-
 unsigned char v[900001];
 unsigned long long maxim;
 long long n, k, p, temp = 0, x, poz, C;
-
 int nrcif(int n) {
     int nrcif = 0;
     while (n != 0) {
@@ -22,7 +19,6 @@ int oglindit(int n) {
         n = n / 10;
     } return nr;
 }
-
 int main() {
     in >> C;
     if (C == 1) {

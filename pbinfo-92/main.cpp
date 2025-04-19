@@ -1,14 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("proiecte.in");
 ofstream out("proiecte.out");
-
 int n, t;
 struct proiect {
     int t, pozitie;
 } v[1001];
-
 int main() {
     in >> n;
     for (int i = 0; i < n; i++) {
@@ -23,6 +20,5 @@ int main() {
             }
     for (int i = 0; i < n; i++)
         out << v[i].pozitie << " ";
-
     return 0;
 }

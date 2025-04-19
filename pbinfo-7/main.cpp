@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("maxim.in");
 ofstream out("maxim.out");
-
 int main(){
     int a, b, maxim;
     in >> a >> b;

@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string.h>
-
 using namespace std;
-
 char s[101],a[51][101];
 int main()
 {

@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("pozitiex.in");
 ofstream out("pozitiex.out");
-
 int main() {
     int n, x, v[10001], temp = 0;
     bool test = false;

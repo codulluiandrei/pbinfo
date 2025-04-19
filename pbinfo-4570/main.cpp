@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main(){
     int n;
     cin >> n;
@@ -14,8 +13,6 @@ int main(){
         n /= 10;
     }
     while(n != 0);
-    
     cout << P << " " << I << endl;
-    
     return 0;
 }

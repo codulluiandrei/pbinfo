@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("conversie_b_10.in");
 ofstream out("conversie_b_10.out");
-
 int main() {
     int n, b, nr = 1, v[10], temp = 0; in >> n >> b;
     while (n != 0) {

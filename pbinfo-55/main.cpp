@@ -10,7 +10,6 @@ int main () {
     	cin >> n;
     	if (n > 0 && n < minim) minim = n;
     }
-
     if (minim == 1000001) cout << "NU EXISTA"; 
     else cout << minim;
     return 0;

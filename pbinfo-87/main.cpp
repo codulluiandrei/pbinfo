@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("lgmax.in");
 ofstream out("lgmax.out");
-
 int main() {
     int n; char text[256], temp[256];
     in >> n; in.getline(temp, 256);

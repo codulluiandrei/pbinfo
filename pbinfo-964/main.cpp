@@ -1,10 +1,7 @@
 #include <fstream>
-
 #include<cstring>
 using namespace std;
-
 ofstream h("cod.out");
-
 void decodific(char s[])
 { int i=0,n=strlen(s),k=0;
   char c, b[100],x;
@@ -22,7 +19,6 @@ void decodific(char s[])
        }
     }
 }
-
 int main()
 { char s[300];
   ifstream g("cod.in");

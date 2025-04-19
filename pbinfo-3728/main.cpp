@@ -45,7 +45,6 @@ int main () {
             }
     } else {
         /// t = 2
-
         fin>>d;
         for (;d--;) {
             fin>>i>>j;
@@ -56,7 +55,6 @@ int main () {
             a[i][j] = 1;
             a[j][i] = 1;
         }
-
         for (i=1;i<=n;i++) {
             ok = 1;
             for (j=1;j<=n;j++)
@@ -72,7 +70,6 @@ int main () {
             if (ok) {
                 sol[++campioane] = i;
             }
-
         }
         for (i=1;i<=campioane;i++) {
             fout<<sol[i];
@@ -84,6 +81,5 @@ int main () {
         if (campioane == 0)
             fout<<"0\n";
     }
-
     return 0;
 }

@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("canguri.in");
 ofstream out("canguri.out");
-
 int main() {
     int nr1, nr2, nr3, pas1, pas2, pas3;
     in >> nr1 >> pas1;

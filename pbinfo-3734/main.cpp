@@ -2,10 +2,8 @@
 #include <fstream>
 #include <math.h>
 using namespace std;
-
 ifstream in ("formula1.in");
 ofstream out ("formula1.out");
-
 int main() {
     long long int n, k, C;
     in >> C >> k >> n;

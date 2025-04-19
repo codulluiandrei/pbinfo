@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int numarare5(int n) {
     int S = 0;
     while (n) {
@@ -8,7 +7,6 @@ int numarare5(int n) {
         n = n / 10;
     } return S;
 }
-
 int main() {
     int n, C = 0, vec[205];
     cin >> n;

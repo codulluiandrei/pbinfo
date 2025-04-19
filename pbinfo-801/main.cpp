@@ -1,14 +1,12 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-
 void eliminare(char * s , int poz)
 {
 	char t[256];
 	strcpy(t , s + poz + 1);
 	strcpy(s + poz , t);
 }
-
 int main(){
 	char s[256];
 	cin.getline(s , 256);

@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("maxcadou.in");
 ofstream out("maxcadou.out");
-
 int main() {
     long long int n, temp;
     int nrcif = 0, mmz = 0, v[11];

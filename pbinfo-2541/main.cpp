@@ -14,5 +14,4 @@ int main() {
             cout << mat[i][j] << " ";
         cout << endl;
     } return 0;
-
 }

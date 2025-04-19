@@ -1,16 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("palindrom.in");
 ofstream out("palindrom.out");
-
 int palindrom(char * text) {
     for (int i = 0, j = strlen(text) - 1; i < j; i++, j--)
         if (text[i] != text[j])
             return 0;
     return 1;
 }
-
 int palindromP(char * text) {
     char temp[250];
     strcpy(temp, text);
@@ -22,7 +19,6 @@ int palindromP(char * text) {
         } else i++;
     return palindrom(temp);
 }
-
 int main() {
     int n;
     char textinput[250];

@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int numararepie(int nr1, int nr2) {
     while(nr2 != 0) {
         int a = nr1 % nr2;
@@ -8,7 +7,6 @@ int numararepie(int nr1, int nr2) {
         nr2 = a;
     } return nr1;
 }
-
 int main() {
     int n, C = 0, vec[205];
     cin >> n;

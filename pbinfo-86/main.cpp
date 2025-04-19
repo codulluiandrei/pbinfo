@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("halfsort.in");
 ofstream out("halfsort.out");
-
 int main() {
     int n, vec[105]; in >> n;
     for (int i = 1; i <= n; i++) in >> vec[i];

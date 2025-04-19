@@ -31,7 +31,6 @@ int main() {
             s = s + b;
             }
         }
-
     } out << s << "\n";
     return 0;
 }

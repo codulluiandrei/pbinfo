@@ -3,14 +3,12 @@
 #include <fstream>
 #include <stdlib.h>
 using namespace std;
-
 int main()
 {ifstream in("robot3.in");
  ofstream out("robot3.out");
  char c;
  int a=0,b=0,n=0,m=0,z=0,e,d,p;
  in>>p;
-
  if(p==1){
    while(!in.eof()){
      in>>c;
@@ -18,7 +16,6 @@ int main()
    }
    out<<a<<endl;
  }
-
  if(p==2){
    in>>c;
    b=0;
@@ -36,7 +33,6 @@ int main()
       in>>c;
    }
  }
-
  if(p==3){
  in>>a;
  if(a==0)out<<"A";

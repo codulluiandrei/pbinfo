@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("munti.in");
 ofstream out("munti.out");
-
 int main() {
     int N, temp;
     in >> N;

@@ -1,9 +1,7 @@
 #include <fstream>
 using namespace std;
-
 ifstream in("sume.in");
 ofstream out("sume.out");
-
 int main() {
     int n, v[101], temp1 = 0, temp2 = 0;
     in >> n;

@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("parcare.in");
 ofstream out("parcare.out");
-
 int main() {
     int zzint, llint, hhint, mmint;
     in >> zzint >> llint >> hhint >> mmint;

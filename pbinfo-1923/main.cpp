@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("egale.in");
 ofstream out("egale.out");
-
 int main() {
     int C; in >> C;
     if (C == 1) {

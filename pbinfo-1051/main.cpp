@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("bete1.in");
 ofstream out("bete1.out");
-
 int main() {
     int n, ana[10000], bogdan[10000], L = 0, K = 0, P = 0, S = 0; in >> n;
     for(int i = 0; i < n; i++) {

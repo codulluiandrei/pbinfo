@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 class Vraja2 {
 public:
   Vraja2();
@@ -14,19 +13,16 @@ private:
   void countV();
   void outputDebug();
 };
-
 void Vraja2::input() {
   cin >> m_n;
   for (int i = 0; i < m_n; ++i) {
     cin >> m_v[i];
   }
 }
-
 Vraja2::Vraja2() {
   input();
   countV();
 }
-
 void Vraja2::outputDebug() {
   cout << m_cntv << '\n';
   for (int i = 0; i < m_n; ++i) {
@@ -34,7 +30,6 @@ void Vraja2::outputDebug() {
   }
   cout << "*\n";
 }
-
 void Vraja2::countV() {
   bool f = true;
   while (f) {
@@ -53,11 +48,9 @@ void Vraja2::countV() {
     }
   }
 }
-
 void Vraja2::output() {
   cout << m_cntv;
 }
-
 int main() {
   Vraja2 obj;
   obj.output();

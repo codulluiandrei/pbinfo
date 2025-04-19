@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 ifstream in ("trafalet.in");
 ofstream out("trafalet.out");
@@ -7,7 +6,6 @@ const int N_MAX = 5002;
 int N, M;
 int input[1 + N_MAX][1 + N_MAX];
 long long sum[1 + N_MAX];
-
 int main() {
   in >> N >> M;
   for (int i = 1; i <= N; i++) {

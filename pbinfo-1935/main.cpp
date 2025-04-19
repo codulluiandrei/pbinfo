@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("plimbare.in");
 ofstream out("plimbare.out");
-
 int oglindit(int nr) {
     int oglinda = 0;
     int temp = nr;
@@ -13,7 +11,6 @@ int oglindit(int nr) {
     } if (temp == oglinda) return 1;
     else return 0;
 }
-
 int main() {
     int n, v[7001], temp = 0;
     in >> n;

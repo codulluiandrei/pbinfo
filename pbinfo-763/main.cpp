@@ -1,15 +1,11 @@
 #include <iostream>
 using namespace std;
-
 int a[101][101], n, m , k , p , L[101], C[101], X[101];
-
 int main(){
-    
     cin  >> n >> m >> k;
     for (int i = 1 ;i <= n ; ++i)
         for(int j = 1 ; j <= m ; ++j)
             cin >> a[i][j];
-    
     for(int i = 1 ; i <= n ; i ++)
     {
         a[i][0] = 0;

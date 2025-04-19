@@ -32,4 +32,3 @@ int main() {
     } cout << var;
     return 0;
 }
-

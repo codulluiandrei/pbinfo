@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("palindrom2.in");
 ofstream out("palindrom2.out");
-
 int main() {
     int C, n, k, cond = 1, aproape = 0, palindrom = 0;
     long long nr, temp, temp2 = 0, val1, val2;

@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ofstream out("nrdiv.out");
 ifstream in("nrdiv.in");
-
 int main() {
     int nr, rez;
     rez = 0; in >> nr;    

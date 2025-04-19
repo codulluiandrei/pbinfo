@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("vocmax.in");
 ofstream out("vocmax.out");
-
 int nrvocale(string text) {
     int rezultat = 0;
     for (int i = 0; text[i]; i++)
@@ -11,7 +9,6 @@ int nrvocale(string text) {
             rezultat++;
     return rezultat;
 }
-
 int main() {
     int n;
     string text, temp;

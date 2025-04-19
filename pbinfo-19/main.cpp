@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std; 
-
 ifstream in("BFS.in");
 ofstream out("BFS.out");
-
 int n, m, x, i, j, a[105][105], viz[105], c[105], p, u, v1, v2;
 int main() {
   in >> n >> m >> x;

@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("sortcuv.in");
 ofstream out("sortcuv.out");
-
 int main() {
     char text[251], cuv[200][21], *temp;
     int n = 0;

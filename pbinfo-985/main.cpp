@@ -1,5 +1,4 @@
 #include <cstdio>
-
 using namespace std;
 int n,i,sum,j,x,a,c,vx[11],vtot[11],cif[11],minsum,cifmax,max1,lsecv,nr1,nr2,maxsecv,nr;
 int main()

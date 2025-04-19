@@ -33,6 +33,5 @@ int main()
     s[strlen(s) - 1] = NULL;
     if (!OK) g << "NU APARE";
         else g << s;
-
     return 0;
 }

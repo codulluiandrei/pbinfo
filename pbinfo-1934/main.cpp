@@ -1,11 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("elfii.in");
 ofstream out("elfii.out");
-
 int x, y, z, nr1, nr2, nr3, nr4, nr5, nr6, nr, maxim;
-
 int main() {
     in >> x >> y >> z;
     if ((x == 0 && y == 0 && z == 0)

@@ -25,7 +25,6 @@ int main() {
     for (int i = 1; i <= n; i++) {
         char v[11];
         cin >> v;
-
         if (strlen(v) == 1)
             s++;
         if (strlen(v) % 2 != 0 && strlen(v) > 2)

@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("af.in");
 ofstream out("af.out");
-
 int main() {
    char semn, egal;
    long long int nr1, nr2, nr3, n;

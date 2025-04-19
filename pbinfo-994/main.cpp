@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("fiboverif1.in");
 ofstream out("fiboverif1.out");
-
 bool fibo(int n) {
     if (n == 1) return true;
     int a = 1, b = 1, temp;

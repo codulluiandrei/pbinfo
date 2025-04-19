@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("pozitie.in");
 ofstream out("pozitie.out");
-
 int main() {
     int n, v[10000], temp = 0;
     in >> n;

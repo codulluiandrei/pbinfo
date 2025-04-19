@@ -1,17 +1,14 @@
 //100 de puncte, optim
 #include<fstream>
 using namespace std;
-
 struct numar
 {
     int v[50],n;
 };
-
 numar next(numar a)
 {
     int i, s1, s2, s[2], t[2], i2, j, x, k;
     a.v[a.n+1]=0;
-
     s[0]=0;
     s[1]=0;
     for(i=1;i<=a.n+1;i++)
@@ -29,7 +26,6 @@ numar next(numar a)
         s1=s[1-i2];//suma cifrelor de pe pozitii >i cu alta paritate decat pozitia i (curenta)
         s2=s[i2]-a.v[i];//suma cifrelor de pe pozitii >i cu aceeasi paritate decat pozitia i
         s[i2]=s2;//actualizez s[i2]
-        
         if(a.v[i]<9)//am gasit o cifra care poate fi crescuta;
         {
             if(s2+a.v[i]<s1)
@@ -74,16 +70,13 @@ numar next(numar a)
     if(a.v[a.n+1]>0)a.n++;//a fost nevoie de o cifra in plus, cifra 1
     return a;
 }
-
 int main()
 {
     char ch;
     int aux,i;
     numar a, b;
-
     ifstream  fin("ech.in");
     ofstream fout("ech.out");
-
     a.n=0;
     while(fin>>ch)
     {
@@ -93,7 +86,6 @@ int main()
             a.v[a.n]=ch-48;
         }
     }
-
     for(i=1;i<=a.n/2;i++)
     {
         aux=a.v[i];
@@ -106,9 +98,7 @@ int main()
         fout<<b.v[i];
     }
     fout<<'\n';
-
     fout.close();
     fin.close();
-    
     return 0;
 }

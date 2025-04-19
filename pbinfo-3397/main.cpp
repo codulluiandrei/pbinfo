@@ -1,23 +1,18 @@
 // Sursa: Dragan Andrei-Gabriel
 #include <bits/stdc++.h>
 using namespace std;
-
 int t, n, k, ans, frecv[10005], a, b, nrA, nrB, v[100005];
-
 int main()
 {
     freopen("gard.in", "r", stdin);
     freopen("gard.out", "w", stdout);
-
     scanf("%d", &t);
-
     while (t--)
     {
         a = b = -1;
         nrA = nrB = 0;
         ans = 1;
         scanf("%d", &n);
-
         if (n <= 100000)
         {
             for (int i = 1; i <= n; i++)
@@ -31,7 +26,6 @@ int main()
             {
                 while (v[index] == v[index + 1] && index <= n)
                     temp++, index++;
-
                 if (temp > 0)
                 {
                     if (a == -1)
@@ -48,11 +42,9 @@ int main()
                                     break;
                                 }
                 }
-
                 index++;
                 temp = 1;
             }
-
             if (b != -1 && ans != -1)
             {
                 if (abs(a - b) > 1)
@@ -68,7 +60,6 @@ int main()
                 ans = 1;
             if (b != -1 && ans != -1 && (nrA == 0 && ((a - b == 1) || (a - b == 0))))
                 ans = 1;
-
         } else
         {
             memset(frecv, 0, sizeof(frecv));
@@ -94,7 +85,6 @@ int main()
                                 break;
                             }
             }
-
             if (b != -1 && ans != -1)
             {
                 if (abs(a - b) > 1)
@@ -113,6 +103,5 @@ int main()
         }
         printf("%d\n", ans >= 1);
     }
-
     return 0;
 }

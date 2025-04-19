@@ -1,11 +1,9 @@
 #include <fstream>
-
 using namespace std;
 ifstream f("numarspecial.in");
 ofstream g("numarspecial.out");
 long long n , i , j , minim , maxim , a , b , p , q , x ;
 int v[1000002] ;
-
 int main()
 {
     f >> n ;

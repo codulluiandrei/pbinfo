@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("concurs2.in");
 ofstream out("concurs2.out");
-
 int main() {
     int C, N;
     in >> C >> N;

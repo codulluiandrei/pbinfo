@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("cuvmax.in");
 ofstream out("cuvmax.out");
-
 int nrcuvinte(char * text) {
     int cuvinte = 0;
     if (text[0] != ' ') cuvinte++;
@@ -12,7 +10,6 @@ int nrcuvinte(char * text) {
             cuvinte++;
     return cuvinte;
 }
-
 int main() {
     int n; char text[256], temp[256];
     in >> n; in.getline(temp, 256);

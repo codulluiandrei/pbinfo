@@ -19,11 +19,9 @@ int main() {
         cin >> lin >> col;
         mat[lin][col] = 1;
     }
-
     for (int i = 1; i <= n; i++)
         for (int j = 1; j <= n; j++)
                 S[i][j] = S[i - 1][j] + S[i][j - 1] - S[i - 1][j - 1] + mat[i][j];
-
     for (int i = k; i <= n; i++)
         for (int j = k; j <= n; j++) {
                 long long int suma = S[i][j] - S[i - k][j] - S[i][j - k] + S[i - k][j - k];
@@ -32,9 +30,7 @@ int main() {
                 else if (suma == maxim)
                     contor++;
         }
-
     cout << maxim << "\n";
     cout << contor;  
-    
     return 0;
 }

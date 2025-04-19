@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     int n, m, mat[25][25];
     cin >> n >> m;

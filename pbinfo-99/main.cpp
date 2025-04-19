@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("nraparitii.in");
 ofstream out("nraparitii.out");
-
 int main() {
     int n, v[101]; in >> n;
     for (int i = 0; i < n; i++) in >> v[i];

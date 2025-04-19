@@ -28,5 +28,4 @@ int main() {
         S = S + temp;
     } out << S;
     return 0;
-
 }

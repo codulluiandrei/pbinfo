@@ -1,21 +1,16 @@
 //prof. Marinel Serban
 #include <fstream>
 #include <cassert>
-
 using namespace std;
-
 ifstream fin("bucati.in");
 ofstream fout("bucati.out");
-
 int cerinta, n, cn, p10, nrc, c_nrc;
 int vmax, c1, c2, v, vmin, x, d;
-
 int main()
 {
    fin >> cerinta >> n;                 //citesc datele
    assert(cerinta == 1 || cerinta == 2);
    assert(999 < n && n < 1000000000); 
-
    cn = n;                              //pastrez n
    nrc = 0;                             //contor cifre
    p10 = 1;                             //initializez puterea lui 10

@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("rapunzel.in");
 ofstream out("rapunzel.out");
-
 int main() {
     long long N, M1, M2, zile;
     in >> N >> M1 >> M2;

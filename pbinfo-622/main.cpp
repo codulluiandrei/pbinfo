@@ -17,13 +17,10 @@ int main(){
         swap(p1,p2);
         swap(n,m);
     }
-
     g=fopen("multimi2.out","w");
-
     if(p==2){
         if(p2>p1+n-1)
-            fprintf(g,"-1
-");
+            fprintf(g,"-1\n");
         else{
             minim=min(p1+n-1,p2+m-1);
             for(i=p2;i<=minim;i++)

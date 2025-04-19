@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("minmax.in");
 ofstream out("minmax.out");
-
 int main() {
 	int vec[1001], n, maxim = -1, minim = 1001;
     in >> n;

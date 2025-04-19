@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 int n, mat[101][101], temp;
-
 void functie(int i, int j, int temp) {
     i = 3 * (i - 1) + 1;
     j = 3 * (j - 1) + 1;

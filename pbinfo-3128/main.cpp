@@ -10,23 +10,18 @@ int main() {
     for (int i = 1; i <= n / 4; i++)
         for (int j = 1; j <= n / 4; j++)
             mat2[i][j] = mat1[i][j];
-
     for (int i = n - n / 4 + 1; i <= n; i++)
         for (int j = 1; j <= n / 4; j++)
             mat2[i][j] = mat1[i][j];
-
     for (int i = 1; i <= n / 4; i++)
         for (int j = n - n / 4 + 1; j <= n; j++)
             mat2[i][j] = mat1[i][j];
-
     for (int i = n - n / 4 + 1; i <= n; i++)
         for (int j = n - n / 4 + 1; j <= n; j++)
             mat2[i][j] = mat1[i][j];
-
     for (int i = n / 4 + 1; i <= n - n / 4; i++)
         for (int j = n / 4 + 1; j <= n - n / 4; j++)
             mat2[i][j] = mat1[i][j];
-
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= n; j++)
             if (mat2[i][j] != 0) cout << mat2[i][j] << " ";

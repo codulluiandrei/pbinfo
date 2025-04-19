@@ -11,5 +11,4 @@ int main() {
         else cout << (v[i] + v[i + 1]) / 2 << " ";
        	}
     } return 0;
-    
 }

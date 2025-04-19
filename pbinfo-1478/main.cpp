@@ -1,5 +1,4 @@
 //prof. Liliana Schiopu, CNFB-Craiova
-
 #include<stdio.h>
 using namespace std;
 FILE *f=fopen("easyocr.in","r");

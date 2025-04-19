@@ -11,5 +11,4 @@ int main() {
         i++;
         j--;
     } return 0;
-
 }

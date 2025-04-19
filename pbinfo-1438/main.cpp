@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 ifstream in("razboi.in");
 ofstream out("razboi.out");
-
 int sumadivi(int n) {
     int S = 0;
     for(int i = 1; i * i <= n; i++) {
