@@ -31,12 +31,12 @@ int main()
                     }
     mx=(x[1]+x[n])/2.0;
     my=(y[1]+y[n])/2.0;
-    cout<<mx<<<<my<<endl;
+    cout<<mx<< " " <<my<<endl;
     for(i=2;i<=n/2;i++)
     {
         if((x[i]+x[n+1-i])/2.0!=mx ||(y[i]+y[n+1-i])/2.0!=my)
             ok=0;
-        cout<<(x[i]+x[n+1-i])/2.0<<<<(y[i]+y[n+1-i])/2.0<<endl;
+        cout<<(x[i]+x[n+1-i])/2.0<< " " <<(y[i]+y[n+1-i])/2.0<<endl;
     }
     }
     if(ok)

@@ -51,7 +51,7 @@ do
   else
   if(s==t[i][l+1][c])l=l+1;
   else  {l=l+1;c=c+1;}
-  g<<<<nr+(l-1)*i+c; }
+  g<< " " <<nr+(l-1)*i+c; }
 }while(s);
 g<<endl;
 g.close();

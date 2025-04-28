@@ -34,7 +34,7 @@ int main()
     nrperechi = vp.size();
     //cout << nrperechi << endl;
     //for (i=0;i<vp.size();i++)
-    //    cout << vp[i]<<<<psta[i]<<<<pstb[i]<<endl;
+    //    cout << vp[i]<< " " <<psta[i]<< " " <<pstb[i]<<endl;
     long long nrsta, nrstb, nrdra, nrdrb, baza1, baza2;
     for (i=0;i<vp.size();i++)
         {

@@ -36,9 +36,9 @@ void rezolvare ()
             else d[i][j]=d[i][j-1]+v[i][j];
         }
        // for (int i=1; i<=n; i++){ for (int j=1; j<=m; j++) cout<<a[i][j]<<; cout<<endl;}
-    if (d[n][m]>a[n][m]) g<<1<<<<d[n][m];
-    else if (d[n][m]<a[n][m]) g<<2<<<<a[n][m];
-    else g<<3<<<<d[n][m];
+    if (d[n][m]>a[n][m]) g<<1<< " " <<d[n][m];
+    else if (d[n][m]<a[n][m]) g<<2<< " " <<a[n][m];
+    else g<<3<< " " <<d[n][m];
     g<<endl;
 }
 int main ()

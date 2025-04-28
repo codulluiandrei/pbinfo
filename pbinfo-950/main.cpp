@@ -43,7 +43,7 @@ int main ()
 {
     citire ();
     sort (v+1, v+n+1, comp);
-   // for (int i=1; i<=n; i++) cout<<v[i].a<<<<v[i].b<<endl;
+   // for (int i=1; i<=n; i++) cout<<v[i].a<< " " <<v[i].b<<endl;
     rez ();
     return 0;
 }

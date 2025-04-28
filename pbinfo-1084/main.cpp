@@ -22,6 +22,6 @@ int main()
   if(am2)x++;
   z=(t1>t-t1)?t1:t-t1;
   if(y)y--;
-  g<<z<<<<x<<<<y;
+  g<<z<< " " <<x<< " " <<y;
   f.close();g.close();
 }

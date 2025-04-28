@@ -39,6 +39,6 @@ int main()
 		etape++;
 	}
 	p= (long long)(1<<etape) * (n-1) + 1; /// 2^k(n-1)+1
-	g<<int(etape)<<<<p;
+	g<<int(etape)<< " " <<p;
 	return 0;
 }

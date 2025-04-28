@@ -62,7 +62,7 @@ void drum(int val)
    c[val].x=k2; c[val].y=l2; c[val].z=c2;
    drum(val);
    for(int i=1;i<=val; i++)
-        g<<c[i].x<<<<c[i].y<<<<c[i].z<<endl;
+        g<<c[i].x<< " " <<c[i].y<< " " <<c[i].z<<endl;
    g.close();
    return 0;
  }

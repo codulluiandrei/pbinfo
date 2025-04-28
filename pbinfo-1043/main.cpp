@@ -21,8 +21,8 @@ int main()
               while(x!=0 && y!=0)
               {
                   if(x%10!=y%10)
-                        {if(x%10<y%10) g<<x%10<<<<y%10<<endl;
-                        else  g<<y%10<<<<x%10<<endl;break;}
+                        {if(x%10<y%10) g<<x%10<< " " <<y%10<<endl;
+                        else  g<<y%10<< " " <<x%10<<endl;break;}
                   else x/=10,y/=10;
               }
             }
@@ -42,8 +42,8 @@ int main()
       while(x!=0 && y!=0)
       {
                   if(x%10!=y%10)
-                        {if(x%10<y%10) g<<x%10<<<<y%10<<endl;
-                         else  g<<y%10<<<<x%10<<endl;break;
+                        {if(x%10<y%10) g<<x%10<< " " <<y%10<<endl;
+                         else  g<<y%10<< " " <<x%10<<endl;break;
                         }
                   else x/=10,y/=10;
       }
